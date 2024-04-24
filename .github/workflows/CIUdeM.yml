@@ -35,8 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           nano texto2.txt
-          python suma.py
-
 
       - name: Set up Python
         # This is the version of the action for setting up Python, not the Python version.
@@ -49,3 +47,4 @@ jobs:
       # You can test your matrix by printing the current Python version
       - name: Display Python version
         run: python -c "import sys; print(sys.version)"
+            python -c suma.py
